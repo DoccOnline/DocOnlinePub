@@ -1,0 +1,72 @@
+.appointment {
+
+}
+a {
+    color: inherit;
+}
+.appointment-bubble {
+    background-color: white;
+    border: 1px solid #EEF0F2;
+    margin-left: 16px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.doc-picture {
+    position: absolute;
+    width: 64px;
+    height: 54px;
+    top: 10px;
+}
+
+.appointment-content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    position: relative;
+}
+h3 {
+    margin: 0;
+}
+
+.appointment-content .cta.blue {
+    background: #56CCF2;
+    color: white;
+    border: unset;
+}
+
+.appointment-content .cta {
+   margin-top: 16px;
+}
+.appointment-content .reminder {
+    position: absolute;
+    bottom: 7px;
+}
+/*1*/
+.appointment:nth-child(odd) .appointment-bubble {
+    border-radius: 0px 24px 24px 24px;
+}
+.appointment:nth-child(odd) .appointment-bubble .doc-picture {
+    left: -24px;
+}
+.appointment:nth-child(odd) .appointment-bubble .appointment-content  {
+    margin-left: 24px;
+    align-items: flex-end;
+}
+.appointment:nth-child(odd) .appointment-bubble .appointment-content .reminder {
+    left: 0;
+}
+/*2*/
+.appointment:nth-child(even) .appointment-bubble {
+    border-radius: 24px 0px 24px 24px;
+}
+.appointment:nth-child(even) .appointment-bubble .doc-picture {
+    right: -24px;
+}
+.appointment:nth-child(even) .appointment-bubble .appointment-content  {
+    margin-right: 24px;
+    align-items: flex-start;
+}
+.appointment:nth-child(even) .appointment-bubble .appointment-content .reminder {
+    right: 0;
+}

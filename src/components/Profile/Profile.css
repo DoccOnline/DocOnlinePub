@@ -1,0 +1,54 @@
+.Profile-page {
+}
+.Profile-header {
+    padding: 24px;
+    background-color: white;
+}
+.personal-info {
+    display: flex;
+}
+.profile-pic {
+    width: 80px;
+    height: 80px;
+}
+.panel {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.edit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.edit svg {
+    margin-right: 8px;
+}
+.button-container {
+    margin: 32px 0;
+}
+
+.Profile-wrapper {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.Profile-wrapper .cta {
+    border-radius: 50px;
+}
+
+.Profile-wrapper .orange {
+    background: #F2994A;
+}

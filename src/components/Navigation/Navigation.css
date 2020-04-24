@@ -1,0 +1,12 @@
+.Navigation {
+    height: 44px;
+}
+
+
+.back-arrow {
+    height: 20px;
+    width: 20px;
+    display: block;
+    padding: 8px;
+    color: unset;
+}
