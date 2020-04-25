@@ -1,0 +1,44 @@
+.CallBtn {
+    opacity: 1;
+    visibility: visible;
+    position: fixed;
+    width: 88px;
+    height: 88px;
+    right: 10px;
+    bottom: 11px;
+    background: #EB5757;
+    border-radius: 50%;
+}
+
+.CallBtn.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.CallBtn .container {
+    position: relative;
+    height: 100%;
+}
+
+.CallBtn .icons {
+    position: relative;
+    height: 100%;
+}
+.CallBtn .number {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.CallBtn .icons img {
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}

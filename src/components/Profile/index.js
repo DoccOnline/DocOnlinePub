@@ -7,6 +7,8 @@ import './Profile.css'
 import userPic from '../../icons/profilepic.jpg'
 import Schedule from "../Schedule";
 import MyDoctor from '../MyDoctor'
+import ProfileNavigation from "../ProfileNavigation"
+import CallBtn from '../CallBtn'
 import { appointments } from '../Appointment/appointments'
 
 const Profile = ({
@@ -51,6 +53,7 @@ const Profile = ({
 				<Schedule appointments={appointments}/>
 			</div>
 			<MyDoctor id={8764356}/>
+			<CallBtn/>
 		</div>
 	)
 };

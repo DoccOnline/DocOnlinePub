@@ -1,0 +1,29 @@
+.ProfileNavigation {
+    overflow-y: auto;
+}
+
+.ProfileNavigation::-webkit-scrollbar {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    height: 42px;
+    padding: 0 0 0 24px;
+    border-bottom: 0.5px solid #BDBDBD;
+    border-top: 0.5px solid #BDBDBD;
+}
+
+li {
+    display: inline-block;
+    min-width: 69px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 42px;
+    text-align: center;
+    /* identical to box height, or 171% */
+    text-transform: uppercase;
+    color: #828282;
+}
