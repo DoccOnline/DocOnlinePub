@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a19f18-8c6c-43f8-82df-3bbeceef44ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Recommendations/Recommendations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/Vectorreccom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MedCard/MedCard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Family/Family.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Family/Family.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Recommendations/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Recommendations/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MedCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MedCard/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Appointment/appointments.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="809">
-              <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+            <state relative-caret-position="562">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -64,22 +62,45 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Recommendations/Recommendations.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Appointment/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="562">
+              <caret line="42" column="11" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="42" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#375#1124#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Family/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/MedCard/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="136">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/MedCard/MedCard.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AppointmentInfo/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="62" column="12" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="62" selection-end-column="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#514#1857#0" />
               </folding>
             </state>
           </provider>
@@ -154,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/components/HomePage/index.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation/index.js" />
         <option value="$PROJECT_DIR$/src/components/ProfileNavigation/ProfileNavigation.css" />
-        <option value="$PROJECT_DIR$/src/components/MedCard/index.js" />
         <option value="$PROJECT_DIR$/src/components/Reccomendations/index.js" />
         <option value="$PROJECT_DIR$/src/components/Profile/Profile.css" />
         <option value="$PROJECT_DIR$/src/components/Profile/index.js" />
@@ -163,14 +183,16 @@
         <option value="$PROJECT_DIR$/src/components/Family/Family.css" />
         <option value="$PROJECT_DIR$/src/components/Recommendations/index.js" />
         <option value="$PROJECT_DIR$/src/components/Recommendations/Recommendations.css" />
+        <option value="$PROJECT_DIR$/src/components/MedCard/index.js" />
+        <option value="$PROJECT_DIR$/src/components/MedCard/MedCard.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="699" />
-    <option name="y" value="48" />
-    <option name="width" value="1861" />
-    <option name="height" value="1056" />
+    <option name="x" value="74" />
+    <option name="y" value="-5" />
+    <option name="width" value="1243" />
+    <option name="height" value="1445" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -205,21 +227,14 @@
               <item name="doc_online_app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Appointment" type="462c0819:PsiDirectoryNode" />
+              <item name="AppointmentInfo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doc_online_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="doc_online_app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doc_online_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doc_online_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Recommendations" type="462c0819:PsiDirectoryNode" />
+              <item name="MedCard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doc_online_app" type="b2602c69:ProjectViewProjectNode" />
@@ -290,13 +305,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56786000" />
+    <option name="totallyTimeSpent" value="57516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="74" y="-5" width="2486" height="1445" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20452675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2707819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Storybook" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -311,7 +326,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="RNConsole" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3013168" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22773044" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" />
@@ -349,13 +364,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/services/calendar/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fonts/FontsFree-Net-SFProDisplay-Regular.ttf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -504,16 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AppointmentInfo/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="64" column="3" lean-forward="true" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/icons/Vectortest.svg" />
     <entry file="file://$PROJECT_DIR$/src/icons/Vectorring.svg">
       <provider selected="true" editor-type-id="images" />
@@ -606,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MedCard/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Family/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -626,12 +617,50 @@
     <entry file="file://$PROJECT_DIR$/src/icons/icon-edit.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProfileNavigation/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Family/Family.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="1249">
+          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/icons/Vectorreccom.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Recommendations/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Recommendations/Recommendations.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Appointment/appointments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Appointment/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="42" column="11" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="42" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#375#1124#0" />
           </folding>
         </state>
       </provider>
@@ -646,51 +675,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Appointment/appointments.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ProfileNavigation/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        <state relative-caret-position="442">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Family/Family.css">
+    <entry file="file://$PROJECT_DIR$/src/components/AppointmentInfo/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1249">
-          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/icons/Vectorreccom.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Appointment/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        <state relative-caret-position="496">
+          <caret line="62" column="12" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="62" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#444#1114#0" />
+            <element signature="e#514#1857#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Recommendations/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/MedCard/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Recommendations/Recommendations.css">
+    <entry file="file://$PROJECT_DIR$/src/components/MedCard/MedCard.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
