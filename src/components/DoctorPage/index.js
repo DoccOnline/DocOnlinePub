@@ -39,7 +39,7 @@ const DoctorPage = ({
 			</div>
 
 			<div className="Doc-additional-info">
-			<a href='https://goo.gl/maps/xuMZBAGYxFrSN63x6'>{doctor.address}</a>
+			<a href={doctor.address.geolocation}>{doctor.address.name}</a>
 				<p className='title'>Приймальні години</p>
 				<p className="bold">пн - пт: 8.00-12.00</p>
 				<div className="contact-info">

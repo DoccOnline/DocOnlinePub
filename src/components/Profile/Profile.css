@@ -38,6 +38,7 @@
 }
 .button-container {
     margin: 32px 0;
+    text-align: center;
 }
 
 .Profile-wrapper {
@@ -51,6 +52,15 @@
 
 .Profile-wrapper .cta {
     border-radius: 50px;
+}
+
+.Profile-wrapper .big-bttn {
+    width: 250px;
+    margin-top: 16px;
+}
+
+.Profile-wrapper .h3-soft{
+    font-weight: 200;
 }
 
 .Profile-wrapper .orange {

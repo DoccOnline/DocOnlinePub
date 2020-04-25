@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91a19f18-8c6c-43f8-82df-3bbeceef44ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Appointment/appointments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DoctorPage/doctors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Appointment/Appointment.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Appointment/Appointment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Appointment/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Appointment/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppointmentInfo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppointmentInfo/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DoctorPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DoctorPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyDoctor/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyDoctor/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Schedule/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Schedule/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.57939506">
+    <splitter split-orientation="horizontal" split-proportion="0.64083177">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
@@ -61,10 +51,19 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Profile/Profile.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="422">
+                  <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Appointment/appointments.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+                <state relative-caret-position="476">
+                  <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -87,8 +86,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/DoctorPage/doctors.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="10" column="61" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="10" selection-end-column="61" />
+                <state relative-caret-position="272">
+                  <caret line="11" column="6" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -96,8 +95,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/DoctorPage/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="680">
-                  <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+                <state relative-caret-position="272">
+                  <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -108,8 +107,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Profile/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+                <state relative-caret-position="393">
+                  <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -123,15 +125,6 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/App/App.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="659">
-                  <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -139,7 +132,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/AppointmentInfo/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="850">
+                <state relative-caret-position="204">
                   <caret line="59" column="65" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
@@ -159,6 +152,7 @@
       <find>Profile-wrapper</find>
       <find>botty</find>
       <find>bottdoc</find>
+      <find>butt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,7 +176,6 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/Chat/index.js" />
         <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.css" />
-        <option value="$PROJECT_DIR$/src/components/Profile/Profile.css" />
         <option value="$PROJECT_DIR$/src/components/Chat/Chat.css" />
         <option value="$PROJECT_DIR$/src/components/HomePage/index.js" />
         <option value="$PROJECT_DIR$/src/components/HomePage/HomePage.css" />
@@ -192,12 +185,13 @@
         <option value="$PROJECT_DIR$/src/components/Appointment/index.js" />
         <option value="$PROJECT_DIR$/src/components/AppointmentInfo/appointments.js" />
         <option value="$PROJECT_DIR$/src/components/Appointment/Appointment.css" />
-        <option value="$PROJECT_DIR$/src/components/Profile/index.js" />
         <option value="$PROJECT_DIR$/src/components/Schedule/index.js" />
         <option value="$PROJECT_DIR$/src/components/AppointmentInfo/index.js" />
-        <option value="$PROJECT_DIR$/src/components/DoctorPage/index.js" />
         <option value="$PROJECT_DIR$/src/components/DoctorPage/doctors.js" />
         <option value="$PROJECT_DIR$/src/components/Appointment/appointments.js" />
+        <option value="$PROJECT_DIR$/src/components/DoctorPage/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Profile/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Profile/Profile.css" />
       </list>
     </option>
   </component>
@@ -241,48 +235,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doc_online_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doc_online_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Appointment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doc_online_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doc_online_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="AppointmentInfo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doc_online_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doc_online_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Chat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doc_online_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doc_online_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="DoctorPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doc_online_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doc_online_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="MyDoctor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doc_online_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doc_online_app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doc_online_app" type="b2602c69:ProjectViewProjectNode" />
@@ -366,13 +318,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44366000" />
+    <option name="totallyTimeSpent" value="45157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="74" y="-5" width="2486" height="1445" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1292181" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1473251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Storybook" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -388,7 +340,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="RNConsole" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.1278079" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.38807127" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -396,7 +348,7 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1292181" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1473251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Storybook" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -412,7 +364,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="RNConsole" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.15956622" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.08288149" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -587,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile/Profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HomePage/HomePage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -656,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Appointment/Appointment.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="62" column="12" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Appointment/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -683,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Profile/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AppointmentInfo/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -700,10 +631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DoctorPage/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Appointment/appointments.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+        <state relative-caret-position="476">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -712,18 +643,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/DoctorPage/doctors.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="10" column="61" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="10" selection-end-column="61" />
+        <state relative-caret-position="272">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Appointment/appointments.js">
+    <entry file="file://$PROJECT_DIR$/src/components/DoctorPage/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        <state relative-caret-position="272">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Appointment/Appointment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="62" column="12" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Profile/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Profile/Profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
         </state>
       </provider>
     </entry>

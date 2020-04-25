@@ -38,12 +38,13 @@ const Profile = ({
 			</div>
 			<div className="Profile-wrapper">
 				<div className="button-container">
+					<h3 className='h3-soft'>Пройти тест на імовірність зараження COVID-19</h3>
 					<Link to="/chat">
 					<Button variant="contained"
 					        color="primary"
-					        className="cta orange"
+					        className="cta orange big-bttn"
 					        >
-						Опишіть проблему
+						Розпочати
 					</Button>
 					</Link>
 				</div>
