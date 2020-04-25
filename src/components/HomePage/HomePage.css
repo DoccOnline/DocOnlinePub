@@ -33,11 +33,22 @@
 
 
 .HomePage .cta {
-    margin-top: 82px;
-    padding: 10px 65px;
+    width: 100%;
+    margin-top: 24px;
+    padding: 15px 47px;
     border-radius: 50px;
 }
 .HomePage .purple {
     background: #7041EE;
 
+}
+
+.HomePage .call {
+    background: #EB5757;
+}
+
+.HomePage  .home-buttons {
+    width: 282px;
+    display: flex;
+    flex-direction: column;
 }

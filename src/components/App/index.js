@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../../logo.svg';
 import '../../fonts/FontsFree-Net-SFProDisplay-Regular.ttf'
-
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -26,12 +25,16 @@ const App = () => {
             <Route exact path="/profile">
               <Profile/>
             </Route>
-            <Route path="/appointment">
-              <AppointmentInfo/>
-            </Route>
-            <Route path="/doctor">
-             <DoctorPage/>
-            </Route>
+            <Route path="/appointment/:id" render={(props)=> {
+              return (
+                <AppointmentInfo id={props.match.params.id}/>
+              )
+            }} />
+            <Route path="/doctor/:id" render={(props)=> {
+              return (
+                <DoctorPage id={props.match.params.id}/>
+              )
+            }} />
             <Route path="/chat">
               <Chat/>
             </Route>

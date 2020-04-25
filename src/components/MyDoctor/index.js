@@ -1,21 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { doctors } from '../DoctorPage/doctors'
 import './MyDoctor.css'
 
 const MyDoctor = ({
-	id,
-	docPicture,
-	speciality,
-	link,
-	status,
-	fullName
+	id
                   }) => {
-	id = '8764356';
-	docPicture = require('../../icons/doctor-pic.jpg');
-	speciality = 'Терапевт';
-	fullName= 'Дяченко Олег Вікторович';
+
+	const doctor = doctors.filter(v => {
+		return v.id == id
+	})[0];
+
+	const { docPicture, speciality, fullName } = doctor;
 	return (
-		<Link className="MyDoctor" to={`/doctor?id=${id}`}>
+		<Link className="MyDoctor" to={`/doctor/${id}`}>
 		<h3>Ваш сімейний лікар</h3>
 			<div className="content">
 				<div className="doc-picture">

@@ -12,14 +12,24 @@ const HomePage = ({}) => {
 					DocOnline
 				</div>
 				<h3>Медицина в телефоні</h3>
-				<Link to="/profile">
-				<Button variant="contained"
-				        color="primary"
-				        className="cta purple"
-				        >
-					Go to Demo
-				</Button>
-				</Link>
+				<div className="home-buttons">
+					<Button variant="contained"
+					        color="primary"
+					        className="cta call"
+					        href='tel:103'
+					>
+						Екстренний виклик
+					</Button>
+					<Link to="/profile">
+						<Button variant="contained"
+						        color="primary"
+						        className="cta purple"
+						>
+							Вхід
+						</Button>
+
+					</Link>
+				</div>
 			</div>
 		</div>
 	)

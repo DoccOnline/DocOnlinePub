@@ -26,3 +26,7 @@ p {
   margin: 0;
   font-size: 16px;
 }
+
+.cta {
+  box-shadow: 0px 16px 60px rgba(134, 109, 201, 0.16);
+}

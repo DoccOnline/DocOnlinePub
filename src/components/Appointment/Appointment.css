@@ -7,7 +7,6 @@ a {
 .appointment-bubble {
     background-color: white;
     border: 1px solid #EEF0F2;
-    margin-left: 16px;
     position: relative;
     margin-bottom: 24px;
 }
@@ -51,6 +50,7 @@ h3 {
 /*1*/
 .appointment:nth-child(odd) .appointment-bubble {
     border-radius: 0px 24px 24px 24px;
+    margin-left: 16px;
 }
 .appointment:nth-child(odd) .appointment-bubble .doc-picture {
     left: -24px;
@@ -65,6 +65,7 @@ h3 {
 /*2*/
 .appointment:nth-child(even) .appointment-bubble {
     border-radius: 24px 0px 24px 24px;
+    margin-right: 16px;
 }
 .appointment:nth-child(even) .appointment-bubble .doc-picture {
     right: -24px;

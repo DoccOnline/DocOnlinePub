@@ -17,7 +17,7 @@ const Appointment = ({
 
 	doctorPic = doctorPic || require('../../icons/icon-doctor.svg');
 	return (
-		<Link className="appointment" key={id} to={`/appointment?id=${id}`}>
+		<Link className="appointment" key={id} to={`/appointment/${id}`}>
 			<div className="appointment-bubble">
 				<div className="doc-picture">
 					<img src={doctorPic} alt=""/>

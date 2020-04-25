@@ -7,6 +7,7 @@ import './Profile.css'
 import userPic from '../../icons/profilepic.jpg'
 import Schedule from "../Schedule";
 import MyDoctor from '../MyDoctor'
+import { appointments } from '../Appointment/appointments'
 
 const Profile = ({
 	userInfo
@@ -15,7 +16,6 @@ const Profile = ({
 		picture: userPic,
 		fullName: 'Діденко Оксана Володимирівна'
 	}
-
 
 	return (
 		<div className="Profile-page">
@@ -47,9 +47,9 @@ const Profile = ({
 					</Button>
 					</Link>
 				</div>
-				<Schedule/>
+				<Schedule appointments={appointments}/>
 			</div>
-			<MyDoctor/>
+			<MyDoctor id={8764356}/>
 		</div>
 	)
 };
