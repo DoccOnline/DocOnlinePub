@@ -5,6 +5,9 @@
 
 .App {
   font-family: SFProDisplay;
+  max-width: 500px;
+  width: auto;
+  margin: auto;
 }
 .App-header {
   background-color: #282c34;
