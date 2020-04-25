@@ -20,7 +20,7 @@ const HomePage = ({}) => {
 					>
 						Екстренний виклик
 					</Button>
-					<Link to="/profile">
+					<Link to="/profile/appointments">
 						<Button variant="contained"
 						        color="primary"
 						        className="cta purple"

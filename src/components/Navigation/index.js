@@ -15,7 +15,7 @@ const Navigation = ({
 		<div className="Navigation">
 			{
 				backArrow &&
-				<Link className="back-arrow" to={`/${linkBack}`}>
+				<Link className="back-arrow" to={`/${linkBack}/appointments`}>
 					<img src={arrow} alt=""/>
 			  </Link>
 			}

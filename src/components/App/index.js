@@ -22,9 +22,11 @@ const App = () => {
             <Route exact path="/">
               <HomePage/>
             </Route>
-            <Route exact path="/profile">
-              <Profile/>
-            </Route>
+            <Route path="/profile/:id" render={(props)=> {
+              return (
+                <Profile id={props.match.params.id}/>
+              )
+            }} />
             <Route path="/appointment/:id" render={(props)=> {
               return (
                 <AppointmentInfo id={props.match.params.id}/>

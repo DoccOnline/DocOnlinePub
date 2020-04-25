@@ -8,15 +8,31 @@ import userPic from '../../icons/profilepic.jpg'
 import Schedule from "../Schedule";
 import MyDoctor from '../MyDoctor'
 import ProfileNavigation from "../ProfileNavigation"
+import Family from '../Family'
+import MedCard from '../MedCard'
+import Recommendations from '../Recommendations'
 import CallBtn from '../CallBtn'
 import { appointments } from '../Appointment/appointments'
 
 const Profile = ({
-	userInfo
+	userInfo,
+	id
 }) => {
 	userInfo = {
 		picture: userPic,
 		fullName: 'Діденко Оксана Володимирівна'
+	}
+
+	const changableBlock = (id) => {
+		if (id === 'appointments') {
+			return <Schedule appointments={appointments}/>
+		} else if (id === 'family') {
+			return <Family />
+		} else if (id === 'med-card') {
+			return <MedCard />
+		} else if (id === 'recommendations') {
+			return <Recommendations />
+		}
 	}
 
 	return (
@@ -38,21 +54,29 @@ const Profile = ({
 					</div>
 				</div>
 			</div>
+			<ProfileNavigation id={id}/>
 			<div className="Profile-wrapper">
-				<div className="button-container">
-					<h3 className='h3-soft'>Пройти тест на імовірність зараження COVID-19</h3>
-					<Link to="/chat">
-					<Button variant="contained"
-					        color="primary"
-					        className="cta orange big-bttn"
-					        >
-						Розпочати
-					</Button>
-					</Link>
-				</div>
-				<Schedule appointments={appointments}/>
+				{
+					(id === 'appointments') &&
+					<div className="button-container">
+						<h3 className='h3-soft'>Пройти тест на імовірність зараження COVID-19</h3>
+						<Link to="/chat">
+							<Button variant="contained"
+							        color="primary"
+							        className="cta orange big-bttn"
+							>
+								Розпочати
+							</Button>
+						</Link>
+					</div>
+				}
+
+				{changableBlock(id)}
 			</div>
-			<MyDoctor id={8764356}/>
+			{
+				(id === 'appointments') &&
+				<MyDoctor id={8764356} pageId={id}/>
+			}
 			<CallBtn/>
 		</div>
 	)

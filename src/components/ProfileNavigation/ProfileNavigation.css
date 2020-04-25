@@ -13,7 +13,10 @@ ul {
     padding: 0 0 0 24px;
     border-bottom: 0.5px solid #BDBDBD;
     border-top: 0.5px solid #BDBDBD;
+    overflow-y: auto;
+    width: max-content;
 }
+
 
 li {
     display: inline-block;
@@ -26,4 +29,12 @@ li {
     /* identical to box height, or 171% */
     text-transform: uppercase;
     color: #828282;
+    padding: 0 12px;
+}
+ul:first-child {
+    padding-left: 0;
+}
+
+li.active {
+    border-bottom: 0.5px solid #6D3FE6;
 }
