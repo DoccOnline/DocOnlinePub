@@ -13,6 +13,7 @@ import Profile from "../Profile"
 import AppointmentInfo from '../AppointmentInfo'
 import HomePage from '../HomePage'
 import DoctorPage from '../DoctorPage'
+import Chat from '../Chat'
 
 const App = () => {
   return (
@@ -30,6 +31,9 @@ const App = () => {
             </Route>
             <Route path="/doctor">
              <DoctorPage/>
+            </Route>
+            <Route path="/chat">
+              <Chat/>
             </Route>
           </Switch>
       </Router>

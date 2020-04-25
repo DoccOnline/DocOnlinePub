@@ -81,14 +81,13 @@ const DoctorPage = ({
 				</div>
 
 				<div className="button-container">
-					{/*<Link to="/chat">*/}
+					<Link to="/chat">
 					<Button variant="contained"
 					        color="primary"
-					        className="cta orange"
-					        id="open-chat">
+					        className="cta orange">
 						Опишіть проблему
 					</Button>
-					{/*</Link>*/}
+					</Link>
 				</div>
 			</div>
 		</div>

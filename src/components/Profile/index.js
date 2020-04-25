@@ -7,7 +7,6 @@ import './Profile.css'
 import userPic from '../../icons/profilepic.jpg'
 import Schedule from "../Schedule";
 import MyDoctor from '../MyDoctor'
-import Komunicate from '../../chat'
 
 const Profile = ({
 	userInfo
@@ -39,14 +38,14 @@ const Profile = ({
 			</div>
 			<div className="Profile-wrapper">
 				<div className="button-container">
-					{/*<Link to="/chat">*/}
+					<Link to="/chat">
 					<Button variant="contained"
 					        color="primary"
 					        className="cta orange"
-					        id="open-chat">
+					        >
 						Опишіть проблему
 					</Button>
-					{/*</Link>*/}
+					</Link>
 				</div>
 				<Schedule/>
 			</div>
