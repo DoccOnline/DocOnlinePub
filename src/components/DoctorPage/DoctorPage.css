@@ -1,0 +1,44 @@
+.Doc-additional-info {
+    margin: 0 24px;
+}
+
+.Doc-additional-info a {
+    color: #6D3FE6;
+}
+.Doc-additional-info p {
+    padding: 8px 0;
+}
+
+p.title {
+    margin-top: 16px;
+}
+p.bold {
+    font-weight: bold;
+}
+
+.row {
+    position: relative;
+    padding: 24px 0 0 0;
+}
+
+.row a {
+    padding-left: 38px;
+}
+
+.row img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-12%);
+}
+
+.Doc-additional-info .cta {
+    border-radius: 50px;
+}
+
+.Doc-additional-info .orange {
+    background: #F2994A;
+}
+
+.Doc-additional-info .button-container {
+    text-align: center;
+}

@@ -10,19 +10,21 @@ const Schedule = ({
 	appointments = [
 		{
 			id: '123',
-			doctorPic: require('../../icon-doctor.svg'),
-			date: '16th of March',
-			time: '2pm',
+			doctorPic: require('../../icons/icon-doctor.svg'),
+			date: '16 Травня',
+			time: '14:00',
 			remind: false,
-			isInCalendar: false
+			isInCalendar: false,
+			title: "Запис на аналізи"
 		},
 		{
 			id: '321',
-			doctorPic: require('../../icon-doctor.svg'),
-			date: '17th of March',
-			time: '4pm',
+			doctorPic: require('../../icons/doctor-f.jpg'),
+			date: '7 Травня',
+			time: '16:00',
 			remind: true,
-			isInCalendar: true
+			isInCalendar: true,
+			title: "Запис до лікаря"
 		},
 	];
 	return (
@@ -34,7 +36,8 @@ const Schedule = ({
 					             date={appointment.date}
 					             time={appointment.time}
 					             remind={appointment.remind}
-					             isInCalendar={appointment.isInCalendar}/>
+					             isInCalendar={appointment.isInCalendar}
+					             title={appointment.title}/>
 				)
 			}
 		</div>

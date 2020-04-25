@@ -1,21 +1,25 @@
 import React from 'react';
 import './Navigation.css'
+import { Link } from 'react-router-dom';
 
 
-import arrow from '../../back.svg'
+import arrow from '../../icons/back.svg'
 
 const Navigation = ({
 	                    backArrow,
+											linkBack,
+											title
                     }) => {
 
 	return (
 		<div className="Navigation">
 			{
 				backArrow &&
-				<a className="back-arrow" href='/profile'>
+				<Link className="back-arrow" to={`/${linkBack}`}>
 					<img src={arrow} alt=""/>
-			  </a>
+			  </Link>
 			}
+			<h3>{title}</h3>
 		</div>
 	)
 };
