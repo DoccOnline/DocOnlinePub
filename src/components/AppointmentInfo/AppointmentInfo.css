@@ -5,7 +5,7 @@
 .AppointmentInfo .table {
     text-align: center;
 }
-.AppointmentInfo .info .row {
+.AppointmentInfo .row {
     position: relative;
     display: grid;
     grid-template-columns: 46% 54%;
@@ -31,11 +31,11 @@
     padding-left: 16px;
     font-weight: 100;
 }
-.info .row .col a {
+.AppointmentInfo .row .col a {
     text-decoration: none;
     color: #6D3FE6;
     padding: unset;
 }
-.AppointmentInfo .info {
+.AppointmentInfo {
     padding: 24px;
 }
