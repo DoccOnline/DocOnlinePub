@@ -28,6 +28,7 @@ const DoctorPage = ({
 		viber: '+380985678345',
 		tel: '+380984576123'
 	}
+
 	return (
 		<div>
 			<Navigation backArrow={true}

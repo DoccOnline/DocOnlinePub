@@ -1,15 +1,19 @@
 .HomePage {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
 }
 
 .HomePage .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 143px;
+    width: 100%;
+    height: 100%;
+    margin-top: 60%;
 }
 
 .logo {

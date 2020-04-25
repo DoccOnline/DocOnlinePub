@@ -1,7 +1,5 @@
 .Profile-page {
     display: flex;
-    flex-direction: column;
-    height: -webkit-fill-available;
     flex-wrap: wrap;
 }
 .Profile-header {

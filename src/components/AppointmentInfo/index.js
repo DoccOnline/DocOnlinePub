@@ -1,5 +1,8 @@
 import React from 'react';
 import Navigation from '../Navigation'
+import {
+	Link
+} from "react-router-dom";
 
 import "./AppointmentInfo.css"
 
@@ -14,7 +17,11 @@ const AppointmentInfo = ({
 				<div className="table">
 					<div className="row">
 						<div className="col left">Лікар</div>
-						<div className="col right">Грекова Лариса Іванівна</div>
+						<div className="col right">
+							<Link to='/'>
+								Грекова Лариса Іванівна
+							</Link>
+						</div>
 					</div>
 					<div className="row">
 						<div className="col left">Адреса</div>
