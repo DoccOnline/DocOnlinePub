@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button, IconButton } from "@material-ui/core";
 import AlarmIcon from '@material-ui/icons/Alarm';
+import { Link } from 'react-router-dom';
 
 import "./Appointment.css"
 
@@ -10,35 +11,36 @@ const Appointment = ({
 	date,
 	time,
 	remind,
-	isInCalendar
+	isInCalendar,
+	title
 	}) => {
 
-	doctorPic = doctorPic || require('../../icon-doctor.svg');
+	doctorPic = doctorPic || require('../../icons/icon-doctor.svg');
 	return (
-		<a className="appointment" key={id} href={`/appointment?id=${id}`}>
+		<Link className="appointment" key={id} to={`/appointment?id=${id}`}>
 			<div className="appointment-bubble">
 				<div className="doc-picture">
 					<img src={doctorPic} alt=""/>
 				</div>
 				<div className="appointment-content">
-					<p>U have an appointment</p>
+					<p>{title}</p>
 					<h3>{date} - {time}</h3>
 					<Button variant="outlined"
 					        color="primary"
 					        className="cta blue"
 					        size="small"
 					        onClick={() => console.log('Open google calendar')}>
-						Add to calendar
+						Додати в календар
 					</Button>
 					<IconButton color="secondary"
 					            className="reminder"
-					            aria-label="add an alarm"
+					            aria-label="Нагадати"
 					            onClick={() => console.log('Set a reminder')}>
 						<AlarmIcon />
 					</IconButton>
 				</div>
 			</div>
-		</a>
+		</Link>
 	)
 };
 

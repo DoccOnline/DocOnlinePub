@@ -1,4 +1,8 @@
 .Profile-page {
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+    flex-wrap: wrap;
 }
 .Profile-header {
     padding: 24px;
@@ -22,6 +26,7 @@
     height: 100%;
     object-fit: contain;
     object-position: center;
+    border-radius: 16px;
 }
 
 .edit {
@@ -42,7 +47,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 32px;
+    padding: 0 32px !important;
+    flex-grow: 1;
 }
 
 .Profile-wrapper .cta {
@@ -51,4 +57,12 @@
 
 .Profile-wrapper .orange {
     background: #F2994A;
+}
+
+.Profile-header h3 {
+    margin-bottom: 16px;
+}
+
+.edit p {
+    color: #6D3FE6;
 }

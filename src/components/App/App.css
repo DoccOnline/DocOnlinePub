@@ -1,7 +1,11 @@
-.App {
-
+@font-face {
+  font-family: 'SFProDisplay';
+  src: local('SFProDisplay'), url(../../fonts/FontsFree-Net-SFProDisplay-Regular.ttf) format('truetype');
 }
 
+.App {
+  font-family: SFProDisplay;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

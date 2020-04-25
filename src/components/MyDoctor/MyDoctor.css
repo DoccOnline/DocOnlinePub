@@ -1,0 +1,43 @@
+.MyDoctor {
+    position: relative;
+    padding: 24px;
+}
+
+.MyDoctor  .doc-picture {
+    position: relative;
+    height: 64px;
+    top: unset;
+}
+
+.MyDoctor  .doc-picture img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.content {
+    display: flex;
+}
+
+.speciality {
+    background: #BB6BD9;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.MyDoctor h3 {
+    margin-bottom: 16px;
+}
+
+.MyDoctor .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 16px;
+    padding: 0 0 8px 0;
+}

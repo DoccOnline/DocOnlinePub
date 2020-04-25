@@ -1,12 +1,16 @@
 .Navigation {
     height: 44px;
+    display: flex;
 }
-
+.Navigation h3 {
+    font-weight: lighter;
+    padding: 16px;
+}
 
 .back-arrow {
     height: 20px;
     width: 20px;
     display: block;
-    padding: 8px;
+    padding: 18px;
     color: unset;
 }
